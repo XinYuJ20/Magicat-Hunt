@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Magicat-Hunt.sln"
+    "dotnet.defaultSolution": "My project.sln"
 }
