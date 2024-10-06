@@ -14,7 +14,7 @@ fetch  <body style="margin: 0; overflow: hidden;">
         <a-entity camera></a-entity>
 
         <!-- Define a marker using a custom pattern (.patt file) -->
-        <a-marker type="pattern" url="flowermarker.patt">
+        <a-marker type="pattern" url="flowermarker.patt" id="flowermarker">
             
             <!-- Load your Unity-exported GLB model (the 2D sprite) -->
             <a-entity gltf-model="cat.glb" 
@@ -27,6 +27,22 @@ fetch  <body style="margin: 0; overflow: hidden;">
         <!--<a-entity geometry="primitive: plane; width: 10; height: 10" 
                   rotation="-90 0 0" material="color: green;"></a-entity>-->
     </a-scene>
+    <script>
+        // Get reference to the marker element
+        var flowermarker = document.querySelector("#flowermarker");
     
+        // Add an event listener for when the marker becomes visible
+        flowermarker.addEventListener("markerFound", (event) => {
+            console.log("flowerMarker detected");
+            unityInstance.SendMessage('cat', 'OnflowerMarkerDetected');
+        });
+    
+        // Add an event listener for when the marker is no longer visible
+        flowermarker.addEventListener("markerLost", (event) => {
+            console.log("flowerMarker lost");
+            // Trigger Unity script for when the marker is lost
+            unityInstance.SendMessage('cat', 'OnflowerMarkerLost');
+        });
+    </script>
   </body>
 </html>
