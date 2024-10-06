@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Include A-Frame and AR.js libraries -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  </head>
+fetch  <body style="margin: 0; overflow: hidden;">
+    
+    <!-- AR.js scene with WebXR capabilities -->
+    <a-scene embedded arjs='sourceType: webcam;'>
+        
+        <!-- WebXR Camera -->
+        <a-entity camera></a-entity>
+
+        <!-- Define a marker using a custom pattern (.patt file) -->
+        <a-marker type="pattern" url="flowermarker.patt">
+            
+            <!-- Load your Unity-exported GLB model (the 2D sprite) -->
+            <a-entity gltf-model="cat.glb" 
+                      position=".25 1.23 12.13" scale="0.3462 0.3462 0.3462">
+            </a-entity>
+            
+        </a-marker>
+
+        <!-- Optionally add other objects, like a ground plane -->
+        <!--<a-entity geometry="primitive: plane; width: 10; height: 10" 
+                  rotation="-90 0 0" material="color: green;"></a-entity>-->
+    </a-scene>
+    
+  </body>
+</html>
