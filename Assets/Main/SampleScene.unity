@@ -483,7 +483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4230eae25da120a47828fa4d8f45857b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionDuration: 1
+  sprite: {fileID: 0}
+  targetPosition: {x: 5, y: 1.23, z: 12.13}
+  moveSpeed: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

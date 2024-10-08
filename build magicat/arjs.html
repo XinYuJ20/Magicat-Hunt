@@ -4,6 +4,7 @@
     <!-- Include A-Frame and AR.js libraries -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://rawgit.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
   </head>
 fetch  <body style="margin: 0; overflow: hidden;">
     
@@ -43,6 +44,19 @@ fetch  <body style="margin: 0; overflow: hidden;">
             // Trigger Unity script for when the marker is lost
             unityInstance.SendMessage('cat', 'OnflowerMarkerLost');
         });
+
+        // AR.js marker detection events
+      var flowermarker = document.querySelector("#flowermarker");
+
+      flowermarker.addEventListener("markerFound", (event) => {
+        console.log("Marker detected");
+        unityInstance.SendMessage('cat', 'OnflowerMarkerDetected');
+      });
+
+      flowermarker.addEventListener("markerLost", (event) => {
+        console.log("Marker lost");
+        unityInstance.SendMessage('cat', 'OnflowerMarkerLost');
+      });
     </script>
   </body>
 </html>

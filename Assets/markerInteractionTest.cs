@@ -9,12 +9,18 @@ public class flowerMarkerInteractionTest : MonoBehaviour
     public float interactionDuration = 1.0f; // Time to revert to idle after interaction
     private bool isflowerMarkerDetected = false;
 
+    //public GameObject sprite;   // Reference to the sprite GameObject
+    //public Vector3 targetPosition;   // Target position for the sprite to move
+    //public float moveSpeed = 2.0f; 
+
+
     // Method to call when marker is detected
     public void OnflowerMarkerDetected()
     {
         Debug.Log("flowerMarker detected!");
         isflowerMarkerDetected = true;
     }
+
 
     void Start()
     {
@@ -27,6 +33,7 @@ public class flowerMarkerInteractionTest : MonoBehaviour
         if (isflowerMarkerDetected)
         {
             StartInteraction();
+            //sprite.transform.position = Vector3.MoveTowards(sprite.transform.position, targetPosition, moveSpeed * Time.deltaTime);
         }         
     }
 
