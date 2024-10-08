@@ -12,6 +12,7 @@ public class PetAnimation : MonoBehaviour
     {
         animator = GetComponent<Animator>(); // Get the Animator component attached to the sprite
     }
+
     void Update()
     {
         // Check for touch or mouse click
@@ -27,22 +28,19 @@ public class PetAnimation : MonoBehaviour
             {
                 touchPosition = Input.mousePosition; // For testing in editor
             }
-            
-            touchPosition.z = 12;
-            // Convert the touch/mouse position to a world point
-            var worldPoint = Camera.main.ScreenToWorldPoint(touchPosition);
-            
-            var camPosition = Camera.main.transform.position;
-            var camDirection = worldPoint - camPosition;
-            var newRay =  new Ray(camPosition, camDirection);   
 
-            var hit = Physics2D.GetRayIntersection(newRay);
+            // Convert touch/mouse position to a world point
+            Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(touchPosition.x, touchPosition.y, 12.13f));
 
-            if (hit.collider != null ){
-                Debug.Log("Touched on: " + hit.collider.gameObject.name); // yes
+            // Perform a raycast from the touch position in 2D space
+            RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+
+            // Check if the ray hit a collider and if it is the current game object
+            if (hit.collider != null && hit.collider.gameObject == gameObject)
+            {
+                Debug.Log("Touched on: " + hit.collider.gameObject.name + "at " + touchPosition);
                 StartInteraction();
             }
-
         }
     }
 
@@ -52,7 +50,3 @@ public class PetAnimation : MonoBehaviour
         animator.SetTrigger("isInteracted"); // Trigger the interaction animation
     }
 }
-
-
-    
-

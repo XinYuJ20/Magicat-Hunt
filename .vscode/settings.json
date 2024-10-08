@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "My project.sln",
+    "dotnet.defaultSolution": "Magicat-Hunt.sln",
     "FSharp.suggestGitignore": false
 }

@@ -11,7 +11,7 @@ public class UIController : MonoBehaviour
     private Animator animator;
 
      public void StartInteraction(){
-         Debug.Log("Button Hit"); // yes
+        Debug.Log("Button Hit"); // yes
         animator.SetTrigger("flowerInteraction"); // Trigger the interaction animation
        
     }
