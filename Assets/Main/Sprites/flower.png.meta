@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6101d9dcbd8f4fa48aca062e152ca244
+guid: 869560c345e5b264785464ee72decada
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flowers_0
+      name: spritesheet (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9423107a0c28bb42867261e6daa05db
-      internalID: 617395041
+      spriteID: 6586ee0d3a817d14580d87f6551c625b
+      internalID: -790590599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowers_1
+      name: spritesheet (2)_1
       rect:
         serializedVersion: 2
         x: 2048
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c286f02ace0f6f146bd81cbb47144bf8
-      internalID: 13803674
+      spriteID: 16ef8bea7cd7c6d48a192b0b1cc1d906
+      internalID: 1939131459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowers_2
+      name: spritesheet (2)_2
       rect:
         serializedVersion: 2
         x: 4096
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80c9c6711d28a1c46ad71eae94b5f084
-      internalID: -1161729106
+      spriteID: e59cb23edb7e02c43955b8baa4abbdab
+      internalID: -1942105994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowers_3
+      name: spritesheet (2)_3
       rect:
         serializedVersion: 2
         x: 6144
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69c51b64bf8acb84dbf1b68ea02c8c52
-      internalID: 1472279654
+      spriteID: bd78a83e350c7474d8096718d5e4d05d
+      internalID: 1093062720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowers_4
+      name: spritesheet (2)_4
       rect:
         serializedVersion: 2
         x: 8192
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f70a76a5bed042e44872dd3771086b37
-      internalID: -1770988389
+      spriteID: c784e5155b54b6a47a17bd648c31fec2
+      internalID: 882288722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flowers_5
+      name: spritesheet (2)_5
       rect:
         serializedVersion: 2
         x: 10240
@@ -229,8 +229,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 867a071c89f18774ea2c717f7975d04e
-      internalID: -1373054799
+      spriteID: 57c4856baf063bd47bad782f1f1f549b
+      internalID: 1371847977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet (2)_6
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 0
+        width: 2048
+        height: 2048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cc617552567714bb9fda935edbf6b5
+      internalID: 55272519
       vertices: []
       indices: 
       edges: []
@@ -238,7 +259,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9e44b077ea9dd534082efbe36a7bbf9f
+    spriteID: f0b86701597fd0e4caa08d1aafcea314
     internalID: 0
     vertices: []
     indices: 
@@ -246,12 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      flowers_0: 617395041
-      flowers_1: 13803674
-      flowers_2: -1161729106
-      flowers_3: 1472279654
-      flowers_4: -1770988389
-      flowers_5: -1373054799
+      spritesheet (2)_0: -790590599
+      spritesheet (2)_1: 1939131459
+      spritesheet (2)_2: -1942105994
+      spritesheet (2)_3: 1093062720
+      spritesheet (2)_4: 882288722
+      spritesheet (2)_5: 1371847977
+      spritesheet (2)_6: 55272519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
