@@ -317,6 +317,8 @@ GameObject:
   - component: {fileID: 1887863033}
   - component: {fileID: 1887863032}
   - component: {fileID: 1887863036}
+  - component: {fileID: 1887863038}
+  - component: {fileID: 1887863037}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -470,6 +472,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionDuration: 1
+--- !u!114 &1887863037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887863031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c16fab581014f44942512c31e16859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lat: 0
+  lon: 0
+--- !u!114 &1887863038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887863031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ca62532bd1c3bd4cb3b0d3c18d2e31e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lat_target: 43.06139
+  lon_target: -77.69283
+  error: 50
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
