@@ -39,7 +39,10 @@ public class DebugLogger : MonoBehaviour
         }
 
         // Initialize the text
-        debugText.text = "Starting Debug Log...";
+        var camHeight = Camera.main.pixelHeight;
+        var camWidth = Camera.main.pixelWidth;
+
+        debugText.text = "Height: " + camHeight + "Width: " + camWidth;
     }
 
     void Update()

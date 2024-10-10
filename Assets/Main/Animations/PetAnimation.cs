@@ -30,10 +30,10 @@ public class PetAnimation : MonoBehaviour
             }
 
             // Convert touch/mouse position to a world point
-            Vector3 worldPoint = Camera.main.ScreenToWorldPoint(new Vector3(touchPosition.x, touchPosition.y, 12.13f));
 
-            // Perform a raycast from the touch position in 2D space
-            RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+            var newRay = Camera.main.ScreenPointToRay(touchPosition);
+
+            var hit = Physics2D.GetRayIntersection(newRay);
 
             // Check if the ray hit a collider and if it is the current game object
             if (hit.collider != null && hit.collider.gameObject == gameObject)
