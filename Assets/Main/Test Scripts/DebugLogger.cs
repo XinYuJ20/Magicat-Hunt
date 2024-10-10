@@ -37,12 +37,7 @@ public class DebugLogger : MonoBehaviour
             Debug.LogError("TextMeshProUGUI is not assigned.");
             return;
         }
-
-        // Initialize the text
-        var camHeight = Camera.main.pixelHeight;
-        var camWidth = Camera.main.pixelWidth;
-
-        debugText.text = "Height: " + camHeight + "Width: " + camWidth;
+        debugText.text = "Debugging start...";
     }
 
     void Update()
