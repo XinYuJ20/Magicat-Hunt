@@ -19,7 +19,16 @@ One of our main priorities for this project was accessibility of the experience.
 
 ### Abdandoned AR Implementation
 
-We found a plug-in for Unity titled unity-webxr-export by De-Panther that allows us to use WebXR in Unity. We looked at different tutorials for this plug-in and began implementation. We discovered that WebXR was not supported through Apple’s Safari browser, so we had to download an application … (still writing)
+We discovered that WebXR was not supported through Apple’s Safari browser, so we had to download an application WebXR Viewer by Mozilla. We had assumed we would need to use this app for the rest of the project. 
+
+We found a plug-in for Unity titled unity-webxr-export by De-Panther that allows us to use WebXR in Unity. We looked at different tutorials for this plug-in and began implementation. The plug-in did not have tutorials on the marker-based AR experience we wanted to create, so we couldn’t move forward with this procedure.
+
+We then looked to AR.js to combine with Unity to create marker-based AR content. Ar.js is a library based on A-Frame, a high-level framework designed for creating XR projects with HTML-like syntax. AR.js has the capability to fully implement markers and AR in a browser using three.js for rendering. The problem was that we already had done our animations through Unity, so we need to continue to use Unity in our project. We attempted to edit the index.html created when building the unity  project on the WebGL platform to include AR.js tools to implement markers. The goal was to implement a camera in Ar.js that would tell a C# Unity script when the marker was detected so it could start the animation. The communication between the two failed and we ended up with two separate scenes. Normally, the Unity scene would open in the browser and the user would hit the AR mode button to see the experience. With Ar.js, the camera and scene were somehow implemented before going into AR mode, and then would break when the mode was activated. This was a long process that we believe has genuine potential in working if given more time. 
+
+Because of our struggles with marker-based AR, we considered location-based AR instead. Unity has the ability to use location data within scripts to enact animations. Sadly, the WebXR Viewer app was not allowing location data. This was difficult to decipher since there is no information on whether location services can be enabled for the app and there isn’t a built-in inspect or log feature within the app to check for accuracy. For these reasons, we did not proceed with location-based AR. 
+
+We eventually looked further to find Zapworks Universal AR SDK, the process we ended up using. 
+
 
 ### Zapworks
 
