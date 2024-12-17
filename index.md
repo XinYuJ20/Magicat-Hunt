@@ -32,7 +32,8 @@ We eventually looked further to find Zapworks Universal AR SDK, the process we e
 
 ### Zapworks
 
-(explain how zapworks works, the script that was written, how objects are connected in unity)
+- By default, ZapWorks displays both the marker and the animation content associated with the marker simultaneously. This is not ideal for immersive AR experiences. We added a script to hide the marker while keeping only the animation visible once the marker is detected. This provides a cleaner and more immersive user experience.
+- ZapWorks supports a single marker mode by default, where only one marker can trigger its associated animation at a time. We added a script to enable multi-marker support, allowing multiple markers to be detected and display their associated animations simultaneously.
 
 ## Animations
 
