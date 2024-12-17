@@ -17,10 +17,10 @@ MagiCat was intended to be a little XR scavengar hunt around the exhibition, acc
 
 Animations were hand drawn using Procreate and each frame was placed together to make the final sprite sheets. They were then imported into Unity where they were spliced to make animations.
 
-#### Example Animations
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif )
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_anim.gif) 
-
+#### Example Animations and Sprite Sheet
+![Idle Animation](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif )
+![MagiCat Animation](https://github.com/XinYuJ20/Magicat-Hunt/blob/master/witchcat.gif?raw=true) 
+![Flower Sprite Sheet](https://github.com/XinYuJ20/Magicat-Hunt/blob/master/Flowers.png?raw=true)
 
 Marker images were done through Procreate as well. 
 
@@ -48,6 +48,4 @@ Marker images were done through Procreate as well.
 
 # Next Steps
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Next time, we would like to incorporate a more cohesive storyline. More animations would be included along with the ability to interact with the cat through touchscreen. 
