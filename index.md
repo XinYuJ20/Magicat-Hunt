@@ -19,7 +19,6 @@ Animations were hand drawn using Procreate and each frame was placed together to
 
 #### Example Animations and Sprite Sheet
 ![Idle Animation](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif )
-![MagiCat Animation](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/f321efd6e731f99a4c04ead7bd3f7015907a1949/witchcat.gif) 
 ![Flower Sprite Sheet](https://github.com/XinYuJ20/Magicat-Hunt/blob/master/Flowers.png?raw=true)
 
 Marker images were done through Procreate as well. 
