@@ -17,16 +17,16 @@ MagiCat was intended to be a little XR scavengar hunt around the exhibition, acc
 
 Animations were hand drawn using Procreate and each frame was placed together to make the final sprite sheets. They were then imported into Unity where they were spliced to make animations.
 
-##### Example Animations
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif)
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_anim.gif)
+#### Example Animations
+![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif | width = "100" )
+![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_anim.gif) | width = "100" 
 
 
 Marker images were done through Procreate as well. 
 
-##### Example Markers
-![Flower Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_marker.png)
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/portal.png)
+#### Example Markers
+![Flower Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_marker.png | width = "100")
+![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/portal.png | width = "100")
 
 # Final Results!
 
