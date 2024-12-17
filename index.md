@@ -56,8 +56,6 @@ Marker images were done through Procreate as well.
 
 Here is the link to the video of our project: https://drive.google.com/file/d/1N4IwtwneuICzY_JhE0kPp5masxBQNEEA/view?usp=drive_link 
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
 [//]: # (above is the format for pictures, [hover title](image link) )
 [//]: # ( https://medium.com/@ciaranbench/how-to-add-a-video-file-on-github-pages-github-io-website-html-a2e9dd81618a -> how to upload videos)
 
