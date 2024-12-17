@@ -32,8 +32,11 @@ We eventually looked further to find Zapworks Universal AR SDK, the process we e
 
 ### Zapworks
 
-- By default, ZapWorks displays both the marker and the animation content associated with the marker simultaneously. This is not ideal for immersive AR experiences. We added a script to hide the marker while keeping only the animation visible once the marker is detected. This provides a cleaner and more immersive user experience.
-- ZapWorks supports a single marker mode by default, where only one marker can trigger its associated animation at a time. We added a script to enable multi-marker support, allowing multiple markers to be detected and display their associated animations simultaneously.
+By default, ZapWorks displays both the marker and the animation content associated with the marker simultaneously. This is not ideal for immersive AR experiences. We added a script to hide the marker while keeping only the animation visible once the marker is detected. This provides a cleaner and more immersive user experience.
+
+Additionally, ZapWorks supports a single marker mode by default, where only one marker can trigger its associated animation at a time. We added a script to enable multi-marker support, allowing multiple markers to be detected and display their associated animations simultaneously.
+
+Furthermore, ZapWorks hosts our project on its servers, enabling it to run as a WebAR experience in a browser.
 
 ## Animations
 
