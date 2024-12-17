@@ -18,15 +18,15 @@ MagiCat was intended to be a little XR scavengar hunt around the exhibition, acc
 Animations were hand drawn using Procreate and each frame was placed together to make the final sprite sheets. They were then imported into Unity where they were spliced to make animations.
 
 #### Example Animations
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif | width = "100" )
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_anim.gif) | width = "100" 
+![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/idle.gif )
+![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_anim.gif) 
 
 
 Marker images were done through Procreate as well. 
 
 #### Example Markers
-![Flower Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_marker.png | width = "100")
-![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/portal.png | width = "100")
+![Flower Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/flower_marker.png )
+![Potion Marker](https://raw.githubusercontent.com/XinYuJ20/Magicat-Hunt/73cda30f36e5cf3278a04cb436d0595f8210c0b4/portal.png )
 
 # Final Results!
 
@@ -39,15 +39,12 @@ Marker images were done through Procreate as well.
 
 # What We Learned
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
+- WebXR is still new!
+  - WebXR is still relatively new in the field of XR. A lot of people are still working and improving it.
+- How to work with Unity:
+  - We had low to no experience working with Unity for the first time
+    - Some of us also had no experience working in C#
+  - This was the first time experimenting with making and implementing animations as well
 
 # Next Steps
 
