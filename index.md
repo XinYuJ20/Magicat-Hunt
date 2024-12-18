@@ -27,16 +27,16 @@ We then looked to AR.js to combine with Unity to create marker-based AR content.
 
 Because of our struggles with marker-based AR, we considered location-based AR instead. Unity has the ability to use location data within scripts to enact animations. Sadly, the WebXR Viewer app was not allowing location data. This was difficult to decipher since there is no information on whether location services can be enabled for the app and there isn’t a built-in inspect or log feature within the app to check for accuracy. For these reasons, we did not proceed with location-based AR. 
 
-We eventually looked further to find Zapworks Universal AR SDK, the process we ended up using. 
-
+We eventually looked further to find Zapworks Universal AR SDK. This is the processes we ultimated used in the project since it gave us full control of AR markers using our Unity game-objects and animations. 
 
 ### Zapworks
+
+ZapWorks hosts our project on its servers, enabling it to run as a WebAR experience in a browser. Thus, we no longer need the WebXR Viewer app. 
 
 By default, ZapWorks displays both the marker and the animation content associated with the marker simultaneously. This is not ideal for immersive AR experiences. We added a script to hide the marker while keeping only the animation visible once the marker is detected. This provides a cleaner and more immersive user experience.
 
 Additionally, ZapWorks supports a single marker mode by default, where only one marker can trigger its associated animation at a time. We added a script to enable multi-marker support, allowing multiple markers to be detected and display their associated animations simultaneously.
 
-Furthermore, ZapWorks hosts our project on its servers, enabling it to run as a WebAR experience in a browser.
 
 ## Animations
 
