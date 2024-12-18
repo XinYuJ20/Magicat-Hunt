@@ -37,6 +37,8 @@ By default, ZapWorks displays both the marker and the animation content associat
 
 Additionally, ZapWorks supports a single marker mode by default, where only one marker can trigger its associated animation at a time. We added a script to enable multi-marker support, allowing multiple markers to be detected and display their associated animations simultaneously.
 
+Lastly, we replaced the original scene camera with the ZapWorks Camera to ensure accurate rendering of AR content and synchronization with the real-world perspective.
+
 
 ## Animations
 
